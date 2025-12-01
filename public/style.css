@@ -1,0 +1,19 @@
+.mitrsht {
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(90deg, #ff3300, #ff6600, #ff0066);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 40px rgba(255,51,0,0.8);
+}
+.watermark {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  font-size: 24px;
+  opacity: 0.2;
+  pointer-events: none;
+  transform: rotate(-30deg);
+  font-weight: 900;
+  color: #ff3300;
+}
